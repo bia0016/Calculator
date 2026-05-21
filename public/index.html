@@ -4,14 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <title>Calculator</title>
 </head>
 <body>
-    <h1>Web Calculator</h1>
-    <div>
-        <p>aqui deve estar os caracteres</p>
+    <header><h1>Web Calculator</h1></header>
+    <div class="visor"></div>
+    <div class="calculator-layout">
+        <div class="ladobotoes">
+            <div class="grid-botoes">
+                <button>C</button>
+                <button>+</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+
+                <button>CA</button>
+                <button>-</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                
+                <button>+/-</button>
+                <button>*</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+
+                <button>.</button>
+                <button>/</button>
+
+                <button class="btn-equal">=</button>
+
+                <button>0</button>
+            </div>
+        </div>
+        <div class="ladohistorical">
+            <h3 style="font-size: 1.8rem; font-weight: 600; margin-top: 10px;">historical</h3>
+        </div>
     </div>
-    
     <script src="script.js"></script>
 </body>
 </html>
